@@ -37,7 +37,7 @@ y = df['target']
 # hint: you can try changing the type of model or the model parameters
 
 from sklearn.tree import DecisionTreeClassifier
-model = DecisionTreeClassifier(random_state=0)
+model = DecisionTreeClassifier(max_depth=5,random_state=0)
 
 #  Split the features and the target into a Train and a Test subsets.  
 #  Ratio should be 80/20
